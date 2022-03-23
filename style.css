@@ -1,0 +1,100 @@
+:root {
+    /* CSS HEX */
+--primary-color: #666666;
+--text-color: #FFFFFF;
+--font: 'Noto Sans', sans-serif;
+}
+
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;  
+}
+
+.searchbar{
+   max-width: 200px;
+}
+
+.bottom-left{
+    margin-top: 65px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+body{
+    background: rgb(102,102,102);
+background: linear-gradient(180deg, rgba(102,102,102,1) 15%, rgba(4,91,103,1) 50%, rgba(129,40,40,1) 100%);
+    font-family: var(--font);
+    min-height: 1400px;
+}
+
+
+.courses{
+    max-height: 40px;
+    align-content: center;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.shadowfont{
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+    
+}
+
+.progcourse{
+    min-height: 480px;
+}
+
+.tab-content{
+    color: #FFFFFF;
+}
+
+.form-check{
+    padding-left: 38px;
+}
+
+h2{
+    color: #FFFFFF;
+    text-shadow:
+        0.03em 0 rgb(34, 33, 33),
+        0 0.03em rgb(34, 33, 33),
+        -0.03em 0 rgb(34, 33, 33),
+        0 -0.03em rgb(34, 33, 33),
+        -0.03em -0.03em rgb(34, 33, 33),
+        -0.03em 0.03em rgb(34, 33, 33),
+        0.03em -0.03em rgb(34, 33, 33),
+        0.03em 0.03em rgb(34, 33, 33);
+}
+
+.h6m{
+    margin-top: 10px;
+}
+
+.flipar{
+    margin-top: 0px;
+    min-height: 550px;
+}
+
+.footermargin{
+    margin-top:700x;
+}
+
+.pic2{
+    margin-top: 100px;
+}
+
+.pic1{
+    max-height: 300px;
+}
